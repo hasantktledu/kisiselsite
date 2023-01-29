@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: auto;
+
+            display: flex;
+            gap: 5%;
+        }
+
+        section img {
+            width: 30%;
+            transition-duration: 0.3s; /* basit animasyonlar 0.3 saniye sürsün */
+        }
+
+        section img:hover { /* tüm imgların üzerine gelince olan durum */
+            box-shadow: 0px 0px 62px -21px rgba(0,0,0,1);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="https://lipsum.app/id/3/600x450" alt="">
+        <img src="https://lipsum.app/id/53/600x450" alt="">
+        <img src="https://lipsum.app/id/23/600x450" alt="">
+    </section>
+</body>
+</html>

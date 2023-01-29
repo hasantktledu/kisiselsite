@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arama Menüsü</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background-color: rgb(222, 222, 222);
+        }
+
+        nav a.aktif { /* nav içinde aktif classına sahip a etiketini seç */
+            background-color: rgb(154, 208, 255);
+        }
+
+        nav a {
+            padding: 14px 16px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        form {
+            padding: 8px;
+        }
+
+        form input {
+            border: none;
+            padding: 8px 8px;
+        }
+
+        form button {
+            padding: 8px 8px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <nav>
+            <a class="aktif" href="#">Bağlantı 1</a>
+            <a href="#">Bağlantı 2</a>
+            <a href="#">Bağlantı 3</a>
+        </nav>
+
+        <form action="">
+            <input type="text" placeholder="Arama ifadesi girin.">
+            <button>Ara</button>
+        </form>
+    </section>
+    
+</body>
+</html>
